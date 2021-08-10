@@ -1,0 +1,10 @@
+one_piece.png 60% Binary 0
+a.jpg 50% Binary 0
+hand.jpg 40% Binary 0
+deer_1.jpg 100% Binary 0
+
+Completed File
+nepal
+one_piece
+a
+hand
