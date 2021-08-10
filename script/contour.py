@@ -4,7 +4,7 @@ import pandas as pd
 import csv
 
 # Variable to be Changed and Threshold Process if needed as per image
-FILE_NAME = "name.jpg"
+FILE_NAME = "gojo.jpg"
 scale_percent = 100 # percent of original size
 contour_number = 0
 
