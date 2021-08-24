@@ -4,7 +4,7 @@ import pandas as pd
 import csv
 
 # Variable to be Changed and Threshold Process if needed as per image
-FILE_NAME = "gojo.jpg"
+FILE_NAME = "eagle.jpg"
 scale_percent = 100 # percent of original size
 contour_number = 0
 
@@ -38,7 +38,7 @@ for contour in contours[contour_number]:
     for x, y in contour:
         data.append([x, y])
 
-with open('../'+FILE_NAME.split(".")[0] + ".csv", "w", encoding='UTF8') as f:
+with open('../csvfiles/'+FILE_NAME.split(".")[0] + ".csv", "w", encoding='UTF8') as f:
     writer = csv.writer(f)
 
     writer.writerow(header)

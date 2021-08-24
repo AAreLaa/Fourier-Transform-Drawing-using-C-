@@ -12,7 +12,7 @@ Draw::~Draw()
 
 void Draw::initFourierDrawingWindow()
 {
-    this->FourierDrawingWindow = new sf::RenderWindow(sf::VideoMode(1300, 700), "Fourier Drawing");
+    this->FourierDrawingWindow = new sf::RenderWindow(sf::VideoMode(1300, 900), "Fourier Drawing");
 }
 
 void Draw::initImageMethod(std::string fileName){
@@ -78,7 +78,7 @@ void Draw::FourierDrawing()
         }
         this->FourierDrawingWindow->clear();
 
-        std::vector<double> v = epicyles(FourierDrawingWindow->getSize().x / 10, FourierDrawingWindow->getSize().y / 10, 0);
+        std::vector<double> v = epicyles(FourierDrawingWindow->getSize().x / 2, FourierDrawingWindow->getSize().y / 2, 0);
 
         // Unshift the vector
         std::vector<std::vector<double>>::iterator iter = this->path.begin();

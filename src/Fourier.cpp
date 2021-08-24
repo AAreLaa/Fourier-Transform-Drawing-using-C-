@@ -121,7 +121,7 @@ void Fourier::initCanvasDrawing()
 
     sf::Color pencolor = sf::Color::White;
 
-    sf::RenderWindow window(sf::VideoMode(350, 350), "Canvas ", sf::Style::Close);
+    sf::RenderWindow window(sf::VideoMode(500, 350), "Canvas ", sf::Style::Close);
     window.setFramerateLimit(60);
 
     while (window.isOpen())

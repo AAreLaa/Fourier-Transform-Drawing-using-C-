@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    string fileName = "gojo.csv";
+    string fileName = "csvfiles/eagle.csv";
     Draw d;
     sf::RenderWindow window{ sf::VideoMode(1248,701), "***LASAKUSA***" ,sf::Style::Close};
     sf::Texture t;
