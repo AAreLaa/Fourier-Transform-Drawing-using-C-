@@ -3,8 +3,8 @@
 * C++ (g++ version 7.3.0),
 * SFML (2.5.1), 
 * Python(3.8.8) 
-
-# ðŸ‘‹ To run this file
+ 
+# 👋  To run this file
 **Clone the repo**
 ```
 https://github.com/AAreLaa/Fourier-Transform-Drawing-using-C-.git
